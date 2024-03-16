@@ -1,0 +1,84 @@
+<?php
+if($data_user['level'] == 'Admin') li('Admin','feather icon-bookmark info','/admin');
+li('Dashboard','feather icon-home','/');
+if($data_user['level'] != 'Basic') ul([
+    'name' => 'Premium',
+    'icon' => 'feather icon-feather warning',
+    'content' => [
+        ['name' => 'Transfer Balance','page' => '/premium/transfer'],
+        ['name' => 'Make a Voucher','page' => '/premium/voucher'],
+        ['name' => 'My Downline','page' => '/premium/downline'],
+    ]
+]);
+ulhead('Menu Utama');
+if(conf('xtra-fitur',4) == 'true') ul([
+    'name' => 'Papan Peringkat',
+    'icon' => 'feather icon-award danger',
+    'content' => [
+        ['name' => 'Deposit','page' => '/page/monthly-rating/deposit'],
+        ['name' => 'Pulsa & PPOB','page' => '/page/monthly-rating/pulsa-ppob'],
+        (conf('xtra-fitur',3) == 'true') ? ['name' => 'Social Media','page' => '/page/monthly-rating/social-media'] : '',
+        (conf('xtra-fitur',2) == 'true') ? ['name' => 'Game Feature','page' => '/page/monthly-rating/game-feature'] : '',
+    ]
+]);
+if(conf('xtra-fitur',2) <> 'true' && conf('xtra-fitur',3) <> 'true') {
+    li('History','feather icon-shopping-bag','/order/history/pulsa-ppob');
+} else {
+    ul([
+        'name' => 'Riwayat Transaksi',
+        'icon' => 'feather icon-shopping-bag primary',
+        'content' => [
+            #['name' => 'Grafik','page' => '/order/history/grafik'],
+            ['name' => 'Pulsa & PPOB','page' => '/order/history/pulsa-ppob'],
+            (conf('xtra-fitur',3) == 'true') ? ['name' => 'Social Media','page' => '/order/history/social-media'] : '',
+            (conf('xtra-fitur',2) == 'true') ? ['name' => 'Game Feature','page' => '/order/history/game-feature'] : '',
+        ]
+    ]);
+}
+li('Daftar Harga','feather icon-tag info','/page/product');
+ul([
+    'name' => 'Deposit',
+    'icon' => 'feather icon-dollar-sign success',
+    'content' => [
+        ['name' => 'Baru','page' => '/deposit/new'],
+        ['name' => 'Voucher','page' => '/deposit/voucher'],
+        ['name' => 'Riwayat','page' => '/deposit/history'],
+    ]
+]);
+ulhead('Pusat Bantuan');
+ul([
+    'name' => 'Halaman',
+    'icon' => 'feather icon-map',
+    'content' => [
+        ['name' => 'Information Center','page' => '/page/information'],
+        ['name' => 'Terms of Service','page' => '/page/terms-of-service'],
+        ['name' => 'General Questions','page' => '/page/general-questions'],
+        ['name' => 'Contact Admin','page' => '/page/contact'],
+    ]
+]);
+
+if(conf('xtra-fitur',2) <> 'true' && conf('xtra-fitur',3) <> 'true') {
+    li('Live Transaksi','feather icon-monitor','/page/monitoring/pulsa-ppob');
+} else {
+ul([
+    'name' => 'Monitoring',
+    'icon' => 'feather icon-monitor',
+    'content' => [
+        ['name' => 'Pulsa & PPOB','page' => '/page/monitoring/pulsa-ppob'],
+        (conf('xtra-fitur',3) == 'true') ? ['name' => 'Social Media','page' => '/page/monitoring/social-media'] : '',
+        (conf('xtra-fitur',2) == 'true') ? ['name' => 'Game Feature','page' => '/page/monitoring/game-feature'] : '',
+    ]
+]);
+}
+ul([
+    'name' => 'API Documentation',
+    'icon' => 'feather icon-terminal',
+    'content' => [
+        ['name' => 'Profile','page' => '/page/api/profile'],
+        ['name' => 'Prepaid','page' => '/page/api/prepaid'],
+        (conf('xtra-fitur',1) == 'true') ? ['name' => 'Postpaid','page' => '/page/api/postpaid'] : '',
+        (conf('xtra-fitur',3) == 'true') ? ['name' => 'Social Media','page' => '/page/api/social-media'] : '',
+        (conf('xtra-fitur',2) == 'true') ? ['name' => 'Game Feature','page' => '/page/api/game-feature'] : '',
+    ]
+]);
+?>

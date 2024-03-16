@@ -1,0 +1,52 @@
+[05-Jan-2023 06:30:30 UTC] PHP Fatal error:  Cannot redeclare u() (previously declared in /home/rotasipe/member.rotasipedia.com/admin/config/propit.php:4) in /home/rotasipe/member.rotasipedia.com/connect.php on line 98
+[13-Feb-2023 09:09:54 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/rotasip1/buy.rotasipedia.com/connect.php on line 18
+[13-Feb-2023 09:09:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/rotasip1/buy.rotasipedia.com/connect.php:25
+Stack trace:
+#0 /home/rotasip1/buy.rotasipedia.com/connect.php(33): _DIR_('library/mainfun...')
+#1 /home/rotasip1/buy.rotasipedia.com/admin/config/propit.php(2): require('/home/rotasip1/...')
+#2 {main}
+  thrown in /home/rotasip1/buy.rotasipedia.com/connect.php on line 25
+[13-Feb-2023 09:09:55 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/rotasip1/buy.rotasipedia.com/connect.php on line 18
+[13-Feb-2023 09:09:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/rotasip1/buy.rotasipedia.com/connect.php:25
+Stack trace:
+#0 /home/rotasip1/buy.rotasipedia.com/connect.php(33): _DIR_('library/mainfun...')
+#1 /home/rotasip1/buy.rotasipedia.com/admin/config/propit.php(2): require('/home/rotasip1/...')
+#2 {main}
+  thrown in /home/rotasip1/buy.rotasipedia.com/connect.php on line 25
+[13-Feb-2023 09:09:57 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/rotasip1/buy.rotasipedia.com/connect.php on line 18
+[13-Feb-2023 09:09:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/rotasip1/buy.rotasipedia.com/connect.php:25
+Stack trace:
+#0 /home/rotasip1/buy.rotasipedia.com/connect.php(33): _DIR_('library/mainfun...')
+#1 /home/rotasip1/buy.rotasipedia.com/admin/config/propit.php(2): require('/home/rotasip1/...')
+#2 {main}
+  thrown in /home/rotasip1/buy.rotasipedia.com/connect.php on line 25
+[13-Feb-2023 09:10:04 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/rotasip1/buy.rotasipedia.com/connect.php on line 18
+[13-Feb-2023 09:10:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/rotasip1/buy.rotasipedia.com/connect.php:25
+Stack trace:
+#0 /home/rotasip1/buy.rotasipedia.com/connect.php(33): _DIR_('library/mainfun...')
+#1 /home/rotasip1/buy.rotasipedia.com/admin/config/propit.php(2): require('/home/rotasip1/...')
+#2 {main}
+  thrown in /home/rotasip1/buy.rotasipedia.com/connect.php on line 25
+[13-Feb-2023 09:10:42 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/rotasip1/buy.rotasipedia.com/connect.php on line 18
+[13-Feb-2023 09:10:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/rotasip1/buy.rotasipedia.com/connect.php:25
+Stack trace:
+#0 /home/rotasip1/buy.rotasipedia.com/connect.php(33): _DIR_('library/mainfun...')
+#1 /home/rotasip1/buy.rotasipedia.com/admin/config/propit.php(2): require('/home/rotasip1/...')
+#2 {main}
+  thrown in /home/rotasip1/buy.rotasipedia.com/connect.php on line 25
+[13-Feb-2023 09:11:43 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/rotasip1/buy.rotasipedia.com/connect.php on line 18
+[13-Feb-2023 09:11:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/rotasip1/buy.rotasipedia.com/connect.php:25
+Stack trace:
+#0 /home/rotasip1/buy.rotasipedia.com/connect.php(33): _DIR_('library/mainfun...')
+#1 /home/rotasip1/buy.rotasipedia.com/admin/config/propit.php(2): require('/home/rotasip1/...')
+#2 {main}
+  thrown in /home/rotasip1/buy.rotasipedia.com/connect.php on line 25
+[11-May-2023 14:09:50 Asia/Jakarta] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/nurulsm1/public_html/library/function/csrf_token.php on line 6
+[13-May-2023 11:32:08 Asia/Jakarta] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/nurulsm1/public_html/library/function/csrf_token.php on line 6
+[13-May-2023 22:41:56 Asia/Jakarta] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/nurulsm1/public_html/library/function/csrf_token.php on line 6
+[14-May-2023 21:37:22 Asia/Jakarta] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/nurulsm1/public_html/library/function/csrf_token.php on line 6
+[14-Jun-2023 21:26:11 Asia/Jakarta] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home1/tinpedco/public_html/library/function/csrf_token.php on line 6
+[17-Jun-2023 21:07:22 Asia/Jakarta] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home1/tinpedco/public_html/library/function/csrf_token.php on line 6
+[25-Jun-2023 18:29:48 Asia/Jakarta] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home1/tinpedco/public_html/library/function/csrf_token.php on line 6
+[29-Jun-2023 16:25:31 Asia/Jakarta] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home1/tinpedco/public_html/library/function/csrf_token.php on line 6
+[23-Sep-2023 09:50:03 Asia/Jakarta] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home/tinpedco/public_html/library/function/csrf_token.php on line 6

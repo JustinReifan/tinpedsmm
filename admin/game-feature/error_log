@@ -1,0 +1,1 @@
+[11-Jun-2023 18:12:07 Asia/Jakarta] PHP Deprecated:  Function mcrypt_create_iv() is deprecated in /home1/tinpedco/public_html/library/function/csrf_token.php on line 6
